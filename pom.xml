@@ -95,12 +95,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Idexcel Technologies Releases Nexus Repository</name>
-	      <url>http://13.232.78.16:8081/repository/devops-release/</url>
+	      <url>http://18.216.221.136:8081/repository/Profiles-Release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Idexcel Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.232.78.16:8081/repository/devops-snapshot/</url>
+	      <url>http://18.216.221.136:8081/repository/Profiles-Snapshot/</url>
 	    </snapshotRepository>
        </distributionManagement>    
         <build>
