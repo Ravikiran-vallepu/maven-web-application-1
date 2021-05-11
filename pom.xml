@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>pipe-snapshot</name>
-	      <urlhttp://15.206.149.19:8081/repository/pipe-snapshot/</url>
+	      <url>http://15.206.149.19:8081/repository/pipe-snapshot/</url>
 	    </snapshotRepository>
        </distributionManagement>    
         <build>
