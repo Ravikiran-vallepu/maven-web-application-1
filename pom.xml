@@ -21,8 +21,8 @@
                 <spring.version>5.1.2.RELEASE</spring.version>
                 <junit.version>4.11</junit.version>
                 <log4j.version>1.2.17</log4j.version>
-                <sonar.host.url>http://15.207.114.153:9000/</sonar.host.url>
-		<sonar.login>088fc3541d9c2d38d39e399b87d9aa9a19316068</sonar.login>
+                <sonar.host.url>http://15.206.205.234:9000/</sonar.host.url>
+		<sonar.login>2738f0bd7d20bd6948164b19c51d5fd2dff9ba3d</sonar.login>
 		
 		<!--
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 
 	    <repository>
 	      <id>nexus</id>
-	      <name>pipe-release</name>
-	      <url>http://15.206.149.19:8081/repository/pipe-release/</url>
+	      <name>release</name>
+	      <url>http://65.2.79.252:8081/repository/release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>pipe-snapshot</name>
-	      <url>http://15.206.149.19:8081/repository/pipe-snapshot/</url>
+	      <name>snapshot</name>
+	      <url>http://65.2.79.252:8081/repository/snapshot/</url>
 	    </snapshotRepository>
        </distributionManagement>    
         <build>
